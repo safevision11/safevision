@@ -1,0 +1,381 @@
+
+
+
+
+
+*{
+	box-sizing: border-box;
+}
+
+body {
+	
+	background-color: rgb(255, 250, 250);
+	margin: 0;
+}
+
+.section {
+
+	min-height: 100vh;
+	text-align: center;
+	width: 100%;
+	display: table;
+	background-size: cover;
+
+}
+
+.wrap-block {
+display: table-cell;
+vertical-align: middle;
+color: white;
+}
+
+
+
+.wrap-block h1 {
+	font-size: 98px;
+	color: rgba(255,255,255,0.8);
+	font-family: 'Damion';
+}
+
+
+.parallax-window
+{
+	height: 100vh;
+
+}
+
+.aboutUs  {
+	
+	background-color: rgb(255, 250, 250);
+
+}
+
+.aboutUs {
+	height: auto;
+}
+
+.menu {
+
+	display: flex;
+	position: absolute;
+	margin: 0px;
+	bottom: 0px; 
+	height: 40px;
+	width: 100%;
+	background-color: rgba(0,0,0,0.58);
+	text-align: center;
+
+	align-content: center;
+	justify-content: center;
+
+}
+
+.menuItems {
+	font-size: 25px;
+	color: rgba(255,255,255,0.6);
+  	text-decoration: none;
+  	margin:  0px 50px ;
+  	
+
+	
+  }
+
+  .menuItems:hover  {
+  	
+  	text-decoration: none;
+	
+  	color: rgb(255,255,255);
+
+  }
+
+
+	#AboutNav {
+		text-align: center;
+		margin:0 10% ;
+		justify-content: center;
+	}
+
+
+	#AboutNav>p {
+		display: inline-block;
+		width: 65%
+	}
+	.aboutUs>h1 {
+		margin: 3% auto 1.1% auto;
+		
+	}
+
+
+	.aboutUs {
+		font-family: 'Neucha';
+		background-color: rgb(255, 250, 250);
+		
+
+	}
+	.aboutUs h3  {
+		
+		font-size: 32px;
+	}
+
+	.aboutUs p  {
+		font-size: 1.1em;
+
+	}
+
+
+
+	 .aboutUs .col‐md‐4 {
+		width: 320px;
+		padding: 5% 2%;
+	
+	}
+
+	.row{
+		justify-content: center;
+	}
+	
+
+	
+
+	/* xl-размер (>=1200px) */
+	/* CSS для >=1200px */
+ 
+	/* lg-размер (<=1199px) */
+	@media (max-width: 1199px) {
+  	/* CSS для ширины от 992px до 1199px */
+	}
+ 
+	/* md-размер (<=991px) */
+	@media (max-width: 991px) {
+  	/* CSS для ширины от 768px до 991px */
+}
+ 
+	/* sm-размер (<=768px) */
+	@media (max-width: 767px ) { 
+  	#AboutNav>p {
+		display: none;
+
+	}
+
+	.menuItems {
+		margin: 0% 6%;}
+
+
+	
+
+#contactLogo>img {
+	display: none;
+		}
+
+#contactLogo>h2 {
+
+	margin-top: 10px;
+	font-size: 1px;
+}
+
+#contactBotom {
+
+	margin: 1%;
+}
+.contact {
+	background-color: rgb(255, 250, 250);
+}
+
+
+
+
+}
+
+ 
+	/* xs-размер (<=575px) */
+	@media (max-width: 575px) {
+  /* CSS для ширины до 575px (включительно) */
+}
+
+
+
+.galeryNav{
+		margin: 10%;
+	justify-content: center;
+	
+}
+
+
+
+
+#galeryH3 {
+
+	color:rgb(33,22,22); 
+	vertical-align: middle;
+	
+	font-family: 'Neucha';
+	font-size: 300%;
+
+	text-align: center;
+	
+}
+
+
+
+
+
+
+
+.contact{
+
+	font-family: 'Neucha';
+	padding: 0%;
+	justify-content: center;
+	height: auto;
+}
+
+#contactLogo {
+	color: #0b729b;
+	text-align: center;
+	justify-content: center;
+	margin: 5%;
+}
+
+#contactLogo>h2 {
+
+	margin-top: -120px;
+	font-size: 300%;
+
+}
+
+#contactLogo>img {
+	max-height: 100%;
+	max-width: 100%;
+	margin-top: -10%;
+	margin-bottom: 0%;
+
+	 
+}
+
+.contact>h2 {
+	
+	font-size: 300%;
+	display: inline-block;
+	background-color: rgb(255, 250, 250);
+	margin-left: 27%;
+	padding: 1px 20px;
+	color:  #0b729b;
+
+
+
+
+}
+
+
+#contactHr  {
+		width: 84%;
+		border: none; 
+    	background-color: #0b729b;
+    	height: 2px;
+		width: 70%;
+		margin-top: -33px;
+	}
+
+#mobileBlokContact {
+	background-color: white;
+	
+	
+		
+	
+
+}	
+
+#contactBotom{
+
+	margin-top: 23%;
+	background-color: red;
+	width: 100%;
+}
+
+
+#socialBlokContact {
+	
+	background-color: black;
+	
+}
+
+.galery {
+	height: 100%;
+
+}
+.fotorama {
+	height: 100%;
+	margin:  0% 0%;
+}
+
+#contactAdress {
+	margin:3% 17%;
+}
+
+
+
+
+	/* sm-размер (<=768px) */
+	@media (max-width: 767px ) { 
+  	#AboutNav>p {
+		display: none;
+
+	}
+
+	.menuItems {
+		margin: 0% 6%;}
+
+
+	
+
+#contactLogo>img {
+	display: none;
+		}
+
+#contactHr{
+	display: none;
+}		
+
+.contactItems {
+	font-size: 20px;
+	overflow: hidden ;
+
+
+}
+
+.contact h2, #contactLogo h2 {
+
+
+	padding: 0px;
+	
+	font-size: 40px;
+
+}
+
+#contactBotom {
+
+	margin: 1%;
+}
+.contact {
+	background-color: rgb(255, 250, 250);
+}
+
+#contactAdress {
+	margin:3% 0%;
+}
+
+
+}
+
+@media (max-width: 300px ) {
+	.contact h2, #contactLogo h2 {
+	padding: 0px;
+	font-size: 25px;
+}
+.contactItems {
+	font-size: 18px;
+	overflow: hidden ;
+
+
+}
+ }
