@@ -135,22 +135,6 @@ color: white;
 	}
 	
 
-	
-
-	/* xl-размер (>=1200px) */
-	/* CSS для >=1200px */
- 
-	/* lg-размер (<=1199px) */
-	@media (max-width: 1199px) {
-  	/* CSS для ширины от 992px до 1199px */
-	}
- 
-	/* md-размер (<=991px) */
-	@media (max-width: 991px) {
-  	/* CSS для ширины от 768px до 991px */
-}
- 
-	/* sm-размер (<=768px) */
 	@media (max-width: 767px ) { 
   	#AboutNav>p {
 		display: none;
@@ -163,21 +147,21 @@ color: white;
 
 	
 
-#contactLogo>img {
+	#contactLogo>img {
 	display: none;
 		}
 
-#contactLogo>h2 {
+	#contactLogo>h2 {
 
 	margin-top: 10px;
 	font-size: 1px;
-}
+	}
 
-#contactBotom {
+	#contactBotom {
 
 	margin: 1%;
-}
-.contact {
+	}
+	.contact {
 	background-color: rgb(255, 250, 250);
 }
 
